@@ -1,0 +1,97 @@
+.main{
+width: 100%;
+background-color: #999;
+display: flex;
+flex-direction:row;
+  }
+  .left{
+    width: 25%;
+    background-color: #c45e45;
+    border: 5px solid #000;
+    margin: 5px;
+    padding: 6px;
+          }
+            .right{
+        width: 70%
+        background-color:#666;
+border: 5px solid #000;
+margin:5px
+      }
+#name{
+  color: green;
+  }
+  .left img{
+    border-radius: 50px;
+    border:5px solid #c454;
+  }
+
+
+/* @media screen and (min-width:425px) */
+@media only screen and (min-width:1024px) and (max-width:1280px){
+  .main{
+  width: 100%;
+    display: flex;
+  flex-direction:row;
+    }
+    .left{
+      width: 25%;
+      background-color: #c45;
+
+            }
+              .right{
+          width: 70%;
+          background-color: #c45;
+
+        }
+@media only screen and (min-width:768px) and (max-width:1024px){
+  .main{
+  width: 100%;
+    display: flex;
+  flex-direction:row;
+    }
+    .left{
+      width: 25%;
+      background-color: #996;
+
+            }
+              .right{
+          width: 70%;
+          background-color: #996;
+
+        }
+}
+  @media only screen and (min-width:480px) and (max-width:768px){
+    .main{
+    width: 100%;
+      display: flex;
+    flex-direction:row;
+      }
+      .left{
+        width: 25%;
+        background-color: #666;
+
+              }
+                .right{
+            width: 70%;
+            background-color: #666;
+
+          }
+  }
+
+    @media only screen and (min-width:480px){
+      .main{
+      width: 100%;
+        display: flex;
+      flex-direction:row;
+        }
+        .left{
+          width: 25%;
+          background-color: #996;
+
+                }
+                  .right{
+              width: 70%;
+              background-color: #996;
+
+            }
+          }
